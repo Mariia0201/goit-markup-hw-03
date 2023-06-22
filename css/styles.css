@@ -95,6 +95,7 @@ button {
     padding-top: 24px;
     padding-bottom: 24px;
     border-bottom: 1px solid #e7e9fc;
+    align-items: center;
 }
 
 .header-container {
@@ -143,11 +144,10 @@ button {
 .header-list {
     display: flex;
     gap: 40px;
-    padding: 24px 0;
 }
 
 .header-item {
-    padding: 24px 0;
+    
 }
 
 .header-link {
@@ -156,6 +156,7 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--logo-dark);
+    padding: 24px 0;
 }
 
 .header-link:hover,
