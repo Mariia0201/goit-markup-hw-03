@@ -92,10 +92,8 @@ button {
 /* Header styles */
 .header {
     background-color: #FFFFFF;
-    padding-top: 24px;
-    padding-bottom: 24px;
     border-bottom: 1px solid #e7e9fc;
-    align-items: center;
+    
 }
 
 .header-container {
@@ -127,6 +125,8 @@ button {
     text-transform: uppercase;
     color: #4D5AE5;
     font-family: Raleway, sans-serif;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .web {
@@ -151,6 +151,7 @@ button {
 }
 
 .header-link {
+    display: flex;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -267,7 +268,7 @@ button {
 
 .three-list {
     display: flex;
-    gap: 24px;
+    
 
 }
 
@@ -285,6 +286,7 @@ button {
 .subtitle-three {
     text-align: center;
     margin-bottom: 8px;
+    font-weight: 500;
 
 }
 .text-three {
@@ -312,10 +314,7 @@ button {
     border: 1px solid transparent;
 
 }
-.footer-logo {
-    display: inline-block;
-    margin-bottom: 16px;
-}
+
 .footer {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -329,12 +328,11 @@ button {
     color: #F4F4FD;
     width: 264px;
     height: 72px;
-    margin-top: 16px;
+    
 }
 
 .btn-list {
     display: flex;
-    padding-top: 96px;
     justify-content: center;
     gap: 24px;
     margin-bottom: 72px;
@@ -349,6 +347,7 @@ button {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+    
 
 }
 .list-portfolio-item {
@@ -358,7 +357,7 @@ button {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;
+    
 }
 .visually-hidden {
     position: absolute;
