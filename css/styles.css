@@ -146,7 +146,9 @@ button {
     padding: 24px 0;
 }
 
-.header-item {}
+.header-item {
+    padding: 24px 0;
+}
 
 .header-link {
     font-weight: 500;
@@ -218,8 +220,9 @@ button {
     border: none;
     margin-top: 48px;
     display: block;
-    min-width: 169px
+    min-width: 169px;
     height: 56px;
+    border-radius: 4px;
 }
 
 .hero-btm:hover,
@@ -258,7 +261,7 @@ button {
 
 .three {
     background-color: #F4F4FD;
-    padding-bottom: 120px;
+    padding: 120px 0;
 }
 
 .three-list {
@@ -280,7 +283,7 @@ button {
 }
 .subtitle-three {
     text-align: center;
-    margin-bottom: 8p;
+    margin-bottom: 8px;
 
 }
 .text-three {
@@ -355,4 +358,17 @@ button {
     border: 1px solid #e7e9fc;
     border-top: none;
     margin-bottom: 8px;
+}
+.visually-hidden {
+    position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+    
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
 }
